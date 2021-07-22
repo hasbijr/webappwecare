@@ -2,6 +2,13 @@ import {config} from './global.config'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  modules: ['@nuxtjs/style-resources'],
+  styleResources: {
+    scss: [
+      './assets/vars/*.scss', // Path to the style file in your own project
+      './assets/abstracts/_mixins.scss' // use underscore "_" & also file extension ".scss"
+      ]
+  },
   head: {
     title: 'Sahabat NITS',
     htmlAttrs: {
