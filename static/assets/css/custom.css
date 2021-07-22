@@ -1,0 +1,225 @@
+body {
+    background-color: #EFEEEE;
+    font-family: "Gotham Rounded", sans-serif;
+}
+
+.navbar-brand {
+  color: #E42312 !important;
+}
+.nav-link {
+    border-bottom: 3px solid transparent !important;
+}
+.nav-link.active {
+  color: #E42312 !important;
+  border-bottom-color: #E42312 !important;
+}
+
+.nav-link:hover {
+    color: #E42312 !important;
+    border-bottom-color: #E42312 !important;
+}
+
+.btn-link {
+    color: #595858;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-link:hover {
+    color: #E42312 !important;
+}
+
+/* .center {
+    line-height: 1.5;
+    vertical-align: middle;
+} */
+
+.btn-login {
+    border-radius: 90px;
+    border-color: #E42312;
+    width: 100%;
+    background-color: #E42312;
+}
+
+.btn-login:hover {
+    background-color: #ffffff;
+    color: #E42312;
+    border-color: #E42312;
+}
+
+.btn-outline-danger {
+    border-radius: 90px;
+    border-color: #E42312;
+    width: 20%;
+    background-color: #E42312;
+    color: #ffffff;
+}
+
+.btn-outline-danger:hover {
+    background-color: #ffffff;
+    color: #E42312;
+    border-color: #E42312;
+}
+
+.btn-danger {
+    border-radius: 90px;
+    border-color: #E42312;
+    width: 20%;
+    background-color: #ffffff;
+    color: #E42312;
+}
+
+.btn-danger:hover {
+    background-color: #ffffff;
+    color: #E42312;
+    border-color: #E42312;
+}
+
+.btn-secondary {
+    border-radius: 90px;
+    border-color: #E42312;
+    width: 20%;
+    background-color: #ffffff;
+    color: #E42312;
+}
+
+.btn-secondary:hover {
+    background-color: #ffffff;
+    color: #E42312;
+    border-color: #E42312;
+}
+
+.label-create-campaign {
+    color: #E42312;
+    font-weight: 700;
+    text-align: center !important;
+}
+
+.background-custom {
+    background-color: #EFEEEE;
+    border-bottom-right-radius: 1.25rem !important;
+    border-bottom-left-radius: 1.25rem !important;
+    -moz-border-radius-bottomright: 1.25rem;
+    -moz-border-radius-bottomleft: 1.25rem;
+    -webkit-border-bottom-right-radius: 1.25rem;
+    -webkit-border-bottom-left-radius: 1.25rem;
+}
+
+.container {
+    margin-top: 25px;
+    background-color: #EFEEEE;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 1.25rem !important;
+    border-bottom-left-radius: 1.25rem !important;
+}
+
+.container1 {
+    margin-top: 25px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.btn-donasi {
+    position: absolute;
+    bottom:20px;
+    left:20px;
+    color: #E42312;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    border-radius: 2.0em;
+    font-size: 16px;
+}
+
+.title-card {
+    font-size: 2.1rem;
+    font-weight: 600;
+    line-height: 1.7;
+}
+
+.sub-title-card {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #595858;
+}
+
+.modal-title-custom {
+    text-align: center !important;
+    color: #E42312;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.label-sub{
+    font-size: 18px;
+    color: #E42312;
+    font-weight: 700;
+}
+
+.label-head{
+    font-size: 24px;
+    color: #E42312;
+    font-weight: 700;
+    padding: 25px 50px 25px 25px
+}
+
+.title-card {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #595858;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    color: #828282;
+}
+
+.badge-draft{
+    font-size: 0.9rem;
+    border-radius: 100px;
+    padding: 10px 35px 10px 35px;
+    margin-right: 10px;
+    width: 100%
+}
+
+.divider-vertical{
+    border-right: 1px solid #595858;
+}
+
+.icon-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.circle{
+    border-radius: 100%; 
+    background-color: #E5E5E5; 
+    text-align:center; 
+    padding: 5px 5px; 
+    margin-right: 2px;
+    height: 40px;
+    width: 40px;
+}
+
+.btn-primary:focus {
+    color: #fff;
+    background-color: #E42312;
+    border-color: #E42312;
+}
+
+.badge-sum{
+    font-size: 1.2rem;
+    color: #E42312;
+    border: solid 2px;
+    border-color: #E42312;
+    border-radius: 90px;
+    padding: 5px 15px;
+    width: 30%;
+    text-align: center;
+}
